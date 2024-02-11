@@ -1,0 +1,16 @@
+.odd {
+    background-color: #FFB6C1;
+    font-family: "Verdana", sans-serif;
+}
+#p2 {
+    color: hsl(240, 100%, 50%);
+    font-size: 36px;
+}
+.odd.three{
+    font-size: 24px;
+}
+#p4 {
+    background-color: hwb(160 50% 0%);
+    font-size: 24px;
+    font-weight: bold;
+}
