@@ -1,0 +1,14 @@
+.container {
+    width: 960px;
+    height: 960px;
+    margin: 32px;
+    display: flex;
+}
+
+.pixel {
+    /* width: 80px;
+    height: 80px; */
+    box-sizing: border-box;
+    border: solid 2px;
+    border-color: black;
+}
