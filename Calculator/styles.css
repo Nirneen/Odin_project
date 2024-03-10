@@ -1,0 +1,38 @@
+body {
+    border: 1px solid;
+    border-radius: 6px;
+    width: 464px;
+    height: 642px;
+}
+
+.row {
+    display: flex;
+}
+
+.output {
+    height: 152px;
+}
+
+.btn {
+    border: 1px solid;
+    width: 116px;
+    height: 96px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    padding: 3px;
+}
+
+.btn.number {
+    background-color: #777677;
+}
+
+.btn.option {
+    background-color: #585859;
+}
+
+.btn.operator {
+    background-color: #ff9f0a;
+}
