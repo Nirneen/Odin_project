@@ -1,28 +1,54 @@
 body {
-    border: 1px solid;
-    border-radius: 6px;
+    /* border: 1px solid;  */
+    border-radius: 25px;
     width: 464px;
     height: 642px;
+    font-family: "Inter", sans-serif;
+}
+
+.container {
+    background-color: #464647;
+    border-radius: 25px;
 }
 
 .row {
     display: flex;
 }
 
-.output {
+#zero {
+    width: 233px;
+    border-radius: 0px 0px 0px 25px;
+}
+
+#equal {
+    border-radius: 0px 0px 25px 0px;
+}
+
+.outputBox {
+    position:relative;
     height: 152px;
 }
 
+.output {
+    position:absolute;
+    bottom:0;
+    right:0;
+    color: #fff;
+    font-size: 96px;
+
+}
+
 .btn {
-    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #464647;
     width: 116px;
     height: 96px;
     text-align: center;
     color: #fff;
     font-weight: 400;
     font-size: 60px;
-    text-align: center;
-    padding: 3px;
 }
 
 .btn.number {
